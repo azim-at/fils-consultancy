@@ -80,10 +80,12 @@
    */
   function aosInit() {
     AOS.init({
-      duration: 600,
+      duration: 200,
       easing: 'ease-in-out',
       once: true,
-      mirror: false
+      mirror: false,
+      offset: 1,
+      delay: 0
     });
   }
   window.addEventListener('load', aosInit);
