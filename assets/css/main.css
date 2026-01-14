@@ -1529,6 +1529,14 @@ section,
 }
 
 @media (max-width: 768px) {
+  .page-title {
+    padding: 120px 0 20px 0;
+   }
+
+   .page-contact {
+    padding: 50px 0 20px 0!important;
+   }
+
   .hero .hero-content h1 {
     font-size: 2rem;
   }
