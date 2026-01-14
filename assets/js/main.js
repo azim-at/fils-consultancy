@@ -171,3 +171,13 @@
   document.addEventListener('scroll', navmenuScrollspy);
 
 })();
+
+function setCurrentYear() {
+  const yearEl = document.getElementById("year");
+  if (yearEl) {
+    yearEl.textContent = new Date().getFullYear();
+  }
+}
+
+// call the function
+setCurrentYear();
